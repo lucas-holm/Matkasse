@@ -63,11 +63,26 @@ main h1 {
     margin: 0 auto;
 }
 
+.bg::after {
+    content: "";
+    background-image: url("./img/pexels-pixabay-264636.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+}
+
 .grid-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, 380px);
     justify-content: center;
-    gap: 1rem;
+    gap: 1.5rem;
 }
 
 .card {
@@ -76,6 +91,7 @@ main h1 {
     box-shadow: 0px 10px 30px -4px rgba(0, 0, 0, 0.75);
     padding: 1rem;
     transition: all linear 300ms;
+    background-color: #fff;
 }
 
 .card:hover {
