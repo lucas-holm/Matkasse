@@ -13,7 +13,7 @@ img {
 .nav {
     display: flex;
     justify-content: space-evenly;
-    height: 10vh;
+    height: 15vh;
     background-color: #0466c8;
     align-items: center;
 }
@@ -30,7 +30,7 @@ img {
 
 .background {
     background-image: url("./img/pexels-pixabay-264636.jpg");
-    height: 90vh;
+    height: 85vh;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -116,7 +116,7 @@ main h1 {
 }
 
 .kasse {
-    width: 40%;
+    width: 50%;
     display: none;
     border: 0.5rem solid black;
     position: fixed;
