@@ -29,6 +29,11 @@ img {
     font-size: 2rem;
 }
 
+.welcome-text h1 {
+    font-size: 4rem;
+    margin-top: 12rem;
+}
+
 .background {
     background-image: url("./img/pexels-pixabay-264636.jpg");
     height: 85vh;
@@ -73,7 +78,7 @@ main h1 {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    opacity: 0.5;
+    opacity: 0.4;
     top: 0;
     left: 0;
     bottom: 0;
@@ -115,16 +120,6 @@ main h1 {
 
 .info p {
     font-size: 1.5rem;
-}
-
-.info {
-    text-align: center;
-}
-
-.info input {
-    text-align: center;
-    font-size: 1.5rem;
-    color: white;
 }
 
 .kasse i {
