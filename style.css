@@ -248,6 +248,19 @@ input[type="checkbox"] {
     width: 45%;
 }
 
+.shopping-cart {
+    width: 50%;
+}
+
+.shopping-cart p {
+    font-size: 1.5rem;
+}
+
+.shopping-cart ul li {
+    font-size: 1.3rem;
+    margin-left: 1rem;
+}
+
 form {
     display: flex;
     flex-direction: column;
