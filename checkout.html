@@ -1,68 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+            integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+            crossorigin="anonymous"
+        />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+            rel="stylesheet"
+        />
+    </head>
 
-<head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
-        integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
-        crossorigin="anonymous" />
-    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
-</head>
+    <body>
+        <header>
+            <nav>
+                <ul class="nav">
+                    <div id="logo-name-div">
+                        <a href="index.html">
+                            <img id="site-logo" src="img/logo.png" alt="logo" />
+                        </a>
+                        <a id="site-name" href="index.html">Matkasse</a>
+                    </div>
+                    <li><a href="index.html">Hem</a></li>
+                    <li><a href="matkassar.html">Matkassar</a></li>
+                    <li><a href="about.html">Om oss</a></li>
+                </ul>
+            </nav>
+        </header>
 
-<body>
-    <header>
-        <nav>
-            <ul class="nav">
-                <div id="logo-name-div">
-                    <a href="index.html">
-                        <img id="site-logo" src="img/logo.png" alt="logo" />
-                    </a>
-                    <a id="site-name" href="index.html">Matkasse</a>
-                </div>
-                <li><a href="index.html">Hem</a></li>
-                <li><a href="matkassar.html">Matkassar</a></li>
-                <li><a href="about.html">Om oss</a></li>
-            </ul>
-        </nav>
-    </header>
+        <main>
+            <div class="main-container">
+                <h1>Checkout</h1>
 
-    <main>
-        <div class="main-container">
-            <h1>Checkout</h1>
+                <div class="checkout-container">
+                    <article class="summary">
+                        <h2>Varukorg <i class="fas fa-shopping-cart"></i></h2>
+                        <br />
 
-            <div class="checkout-container">
-                <article class="summary">
-                    <h2>Summering / Varukorg</h2>
-                    <p>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus,
-                        provident. Ex libero repellat dolores necessitatibus a! Itaque excepturi
-                        fugiat vitae.
-                    </p>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, quis.
-                    </p>
-                    <p>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores, ex.
-                    </p>
-                </article>
-                <div class="form-wrapper">
-                    <h2>Kontaktuppgifter</h2>
-                    <form action="">
-                        <input type="text" placeholder="Förnamn..." />
-                        <input type="text" placeholder="Efternamn..." />
-                        <input type="text" placeholder="Address..." />
-                        <input type="text" placeholder="Telefonnummer..." />
-                        <button class="btn">Beställ</button>
-                    </form>
+                        <p>Du har valt: Premiumkassen</p>
+                        <br />
+                        <p>Pris: 449kr</p>
+                    </article>
+                    <div class="form-wrapper">
+                        <h2>Kontaktuppgifter</h2>
+                        <form action="">
+                            <input type="text" placeholder="Förnamn..." />
+                            <input type="text" placeholder="Efternamn..." />
+                            <input type="text" placeholder="Address..." />
+                            <input type="text" placeholder="Telefonnummer..." />
+                            <button class="btn">Beställ</button>
+                        </form>
+                    </div>
                 </div>
             </div>
-        </div>
-    </main>
+        </main>
 
-    <script src="script.js"></script>
-</body>
-
+        <script src="script.js"></script>
+    </body>
 </html>
