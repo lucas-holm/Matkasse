@@ -45,29 +45,44 @@
 
                         <p>Du har valt: Premiumkassen</p>
                         <br />
-                        <p>Veckans matsedel:</p>
-                        <br />
-                        <ul>
-                            <li>Lax, potatis och romsås</li>
-                            <li>Köttbullar med citrongurka och potatis</li>
-                            <li>Korv Stroganoff med pepparrot</li>
-                            <li>Kyckling med krämig gnocchi och broccoli</li>
-                            <li>Höstpasta med sockerärter och senap</li>
-                            <li>Krämig svamppasta med kronärtskockssallad</li>
-                            <li>Chimichurrirostad sötpotatis med rostas</li>
-                        </ul>
+
                         <br />
                         <p>Pris: 449kr</p>
                     </article>
                     <div class="form-wrapper">
-                        <h2>Kontaktuppgifter</h2>
                         <form action="">
-                            <input type="text" placeholder="Förnamn..." />
-                            <input type="text" placeholder="Efternamn..." />
-                            <input type="text" placeholder="Address..." />
-                            <input type="text" placeholder="Telefonnummer..." />
-                            <button class="btn">Beställ</button>
+                            <div class="billing">
+                                <h2>Kontaktuppgifter</h2>
+                                <label for="first-name"><i class="fa fa-user"></i> Förnamn</label>
+                                <input type="text" placeholder="Greta..." />
+                                <label for="last-name"><i class="fa fa-user"></i> Efternamn</label>
+                                <input type="text" placeholder="Garbo..." />
+                                <label for="address"
+                                    ><i class="fas fa-address-card"></i> Address</label
+                                >
+                                <input type="text" placeholder="Lingonstigen 43..." />
+                                <label for="phone-number"
+                                    ><i class="fas fa-phone"></i>Telefonnummer</label
+                                >
+                                <input type="text" placeholder="Telefonnummer..." />
+                            </div>
+                            <div class="payment">
+                                <h2>Betalningsuppgifter</h2>
+                                <label for="accepted-cards">Accepterade kort</label>
+                                <div class="icon-container">
+                                    <i class="fab fa-cc-visa" style="color: navy"></i>
+
+                                    <i class="fab fa-cc-mastercard" style="color: red"></i>
+                                </div>
+                                <label for="name">Namn på kortet</label>
+                                <input type="text" placeholder="Greta Garbo.." />
+                                <label for="name">Kortnummer</label>
+                                <input type="text" placeholder="1111-2222-3333-4444.." />
+                                <label for="name">Utgångsdatum</label>
+                                <input type="text" placeholder="2020-02-02" />
+                            </div>
                         </form>
+                        <button class="btn">Beställ</button>
                     </div>
                 </div>
             </div>

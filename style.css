@@ -227,6 +227,7 @@ input[type="checkbox"] {
 .checkout-container {
     display: flex;
     justify-content: space-between;
+    margin-top: 5rem;
 }
 
 #logo-name-div {
@@ -245,11 +246,21 @@ input[type="checkbox"] {
 }
 
 .form-wrapper {
-    width: 45%;
+    width: 70%;
+    background-color: #e9ecef;
+    margin-left: 1rem;
+    padding: 1rem;
+}
+
+.form-wrapper button {
+    margin: 1rem auto;
+    display: block;
 }
 
 .shopping-cart {
-    width: 50%;
+    width: 30%;
+    background-color: #e9ecef;
+    padding: 1rem;
 }
 
 .shopping-cart p {
@@ -261,18 +272,28 @@ input[type="checkbox"] {
     margin-left: 1rem;
 }
 
-form {
+.billing,
+.payment {
     display: flex;
     flex-direction: column;
+    width: 45%;
 }
 
-form button {
-    width: 50%;
-    margin: 1rem auto;
+form {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+form label {
+    margin-top: 1rem;
+    font-size: 1.5rem;
 }
 
 form input {
-    padding: 1rem;
-    margin-top: 1rem;
-    font-size: 1.5rem;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+}
+
+.icon-container i {
+    font-size: 3rem;
 }
